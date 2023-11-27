@@ -1,3 +1,15 @@
+html::-webkit-scrollbar-thumb{
+background:#b2744c;
+}
+html::-webkit-scrollbar-track{
+    background:transparent;
+    border-radius:10px;
+}
+html::webkit-scrollbar{
+    width:10px;
+    height:100px;
+}
+
 .navbar{
     background-color:#1A1A2A;
 }
@@ -59,3 +71,54 @@
         background:#C6A877;
     }
 }
+/* beg of home section */
+#home{
+    width:100%;
+    height:90vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:grid;
+    place-items:center;
+    align-items:center;
+    justify-content:center;
+    background-image:url('atom-1674878_640.png');
+    background-position:center;
+ 
+
+}
+#home .content{
+  padding-top:-100px;
+  margin-left:56px;
+
+
+}
+#home .content h3{
+    font-size:50px;
+    color:rgb(24, 24, 24);
+    text-align:left;
+    padding-top:-100px;
+}
+#home .content p{
+    margin-top:10px;
+    color:rgb(0, 0, 0);
+    padding-top:-100px;
+
+}
+#btn{
+    width:150px;
+    height:36px;
+    margin-top:20px;
+    background:rgb(41, 41, 41);
+    border-radius:5px;
+    font-weight:bold;
+    border:none;
+    transition: 0.5s ease;
+    cursor:pointer;
+}
+#btn:hover{
+    background-color: black;
+    color:white;
+}
+/* end of home section */
+
+
