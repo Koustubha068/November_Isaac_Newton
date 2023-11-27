@@ -94,30 +94,34 @@ html::webkit-scrollbar{
 }
 #home .content h3{
     font-size:50px;
-    color:rgb(24, 24, 24);
+    color:#1A1A2A;
     text-align:left;
     padding-top:-100px;
+    font-family: "antiquarian-scribe", sans-serif;
 }
 #home .content p{
-    margin-top:10px;
-    color:rgb(0, 0, 0);
+    margin-top:20px;
+    color:#1A1A2A;
     padding-top:-100px;
+    font-family: "antiquarian", sans-serif;
+    font-size: 20px;
 
 }
 #btn{
     width:150px;
     height:36px;
     margin-top:20px;
-    background:rgb(41, 41, 41);
+    background:#946D43;
     border-radius:5px;
     font-weight:bold;
     border:none;
     transition: 0.5s ease;
     cursor:pointer;
+    color: #1A1A2A;
 }
 #btn:hover{
-    background-color: black;
-    color:white;
+    background-color: #1A1A2A;
+    color:#946D43;
 }
 /* end of home section */
 
