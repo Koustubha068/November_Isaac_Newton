@@ -1,3 +1,10 @@
+body{
+    background-image:linear-gradient(#000000,#1A1A2A, #946D43, #C6A877);
+ }
+
+
+
+
 html::-webkit-scrollbar-thumb{
 background:#b2744c;
 }
@@ -62,7 +69,7 @@ html::webkit-scrollbar{
 }
 @media only screen and (max-width:767px){
     .navbar-nav.ms-auto{
-        background:rgba(204, 21, 49, 0.8);
+        background:rgba(204, 21, 49, 0.5);
     }
     .navbar-toggler{
         padding:1px 5px;
@@ -75,6 +82,8 @@ html::webkit-scrollbar{
 #home{
     width:100%;
     height:90vh;
+    min-height:50vh;
+    background-attachment: fixed;
     background-repeat:no-repeat;
     background-size:cover;
     display:grid;
@@ -98,13 +107,15 @@ html::webkit-scrollbar{
     text-align:left;
     padding-top:-100px;
     font-family: "antiquarian-scribe", sans-serif;
+    
 }
 #home .content p{
     margin-top:20px;
     color:#1A1A2A;
     padding-top:-100px;
     font-family: "antiquarian", sans-serif;
-    font-size: 20px;
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.3);
 
 }
 #btn{
@@ -122,6 +133,7 @@ html::webkit-scrollbar{
 #btn:hover{
     background-color: #1A1A2A;
     color:#946D43;
+
 }
 /* end of home section */
 
