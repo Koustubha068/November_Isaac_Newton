@@ -78,7 +78,7 @@ html::webkit-scrollbar{
         background:#C6A877;
     }
 }
-/* beg of home section */
+/* beg of prallax section */
 #home{
     width:100%;
     height:90vh;
@@ -135,6 +135,51 @@ html::webkit-scrollbar{
     color:#946D43;
 
 }
-/* end of home section */
+/* end of parrallax section */
+/*beg of home section*/
+.row{
+    margin-top:50px;
+}
+.newton{
+    text-align:center;
+}
+.about{
+    margin-top:50px;
+  
+
+}
+.about .card{
+    border-radius:10px;
+}
+.about .card img{
+    border-radius:10px;
+
+}
+.about h2{
+    font-weight:600;
+    font-family: "antiquarian", sans-serif;
+    letter-spacing:1px;
+}
+.about p{
+    font-size:500;
+}
+#about-btn{
+    width:150px;
+    height:38px;
+    border:1px;
+    border-radius:5px;
+    background:black;
+    color:white;
+    letter-spacing:20px;
+    font-weight:550;
+    transition:0.5s ease;
+    cursor:pointer;
+}
+#about-btn:hover{
+    width:170px;
+}
+/*beg of home section*/
+
+
 
 
