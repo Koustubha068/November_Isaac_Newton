@@ -21,6 +21,7 @@ html::webkit-scrollbar{
 
 .navbar{
     background-color:#1A1A2A;
+    
 }
 .navbar-nav-a{
     font-family: "antiquarian", sans-serif;
@@ -69,7 +70,7 @@ html::webkit-scrollbar{
 .w-100{
     height: 100vh
 }
-@media only screen and (max-width:767px){
+@media only screen and (max-width:1000px){
     .navbar-nav.ms-auto{
         background:rgba(204, 21, 49, 0.5);
     }
@@ -80,6 +81,7 @@ html::webkit-scrollbar{
         background:#C6A877;
     }
 }
+
 /* beg of prallax section */
 #home{
     width:100%;
@@ -194,83 +196,6 @@ html::webkit-scrollbar{
 }
 /*end of about section*/
 /*beg of early years*/
-.card-flip{
-    margin:20px;
-    position:relative;
-    transform-style:preserve-3d;
-    perspective:1000px;
-    display:inline-block;
-}
-.card-flip-front,
-.card-flip-back{
-    width:380px;
-    min-height:600px;
-    height:auto;
-    background-color:black;
-    background-image:url('isaac\ newton\ 17.png');
-    background-size:cover;
-    background-position:center;
-    text-align:center;
-    backface-visibility:hidden;
-    transform-style:preserve-3d;
-    display:inline-block;
-    transition:transform 0.7 cubic-bezier(0.4,0.2,0.2,1);
-}
-.card-flip-front{
-    transform:rotateY(0deg);
-    display:inline-block;
-}
-.card-flip-back{
-    position:absolute;
-    top:0;
-    left:0;
-    transform:rotateY(180deg);
-    display:inline-block;
-}
-.card-flip-front::after,
-.card-flip-back::after{
-    content:"";
-    width:100%;
-    height:100%;
-    background-color:black;
-    position:absolute;
-    top:0;
-    left:0;
-    opacity:0.6;
-    
-}
-.card-flip-front .inside,
-.card-flip-back .inside{
-    width:100%;
-    padding:40px;
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%) translateZ(60px) scale(0.94);
-    z-index:2;
-
-
-}
-.inside h3{
-    margin-bottom:8px;
-    color:white;
-    font-size:30px;
-    font-weight:700;
-    line-height:40px;
-    text-transform:capitalize;
-}
-.inside p{
-    color:white;
-    font-size:16px;
-    line-height:28px;
-
-}
-.card-flip:hover .card-flip-front{
-    transform:rotateY(-180deg);
-}
-.card-flip:hover .card-flip-back{
-    transform:rotateY(0deg);
-}
-
 
 /*end of early years*/
 
