@@ -149,6 +149,7 @@ html::webkit-scrollbar{
 .newton{
     text-align:center;
     font-family: "antiquarian", sans-serif;
+    color:#946D43;
 
 }
 .about{
@@ -185,6 +186,16 @@ html::webkit-scrollbar{
     font-family: "antiquarian", sans-serif;
     font-size: 24px;
 }
+.him{
+    color:#b2744c;
+    font-family: "antiquarian", sans-serif;
+    font-size:2em;
+}
+.Newton{
+    color:#b2744c;
+    font-family: "antiquarian", sans-serif;
+    font-size:20px;
+}
 #about-btn:hover{
     width:170px;
 }
@@ -197,69 +208,122 @@ html::webkit-scrollbar{
 /*end of about section*/
 /*beg of early years*/
 h1{
+    margin:0.3em;
+    font-size:3em;
+}
+h2{
+    margin-bottom:0.5em;
+}
+.title{
+    text-align:center;
     color:#946D43;
-    font-weight:700;
-    margin-top:125px;
-    text-align:center;
-    text-transform:uppercase;
-    letter-spacing:4px;
-    line-height:23px;
-}
-h1 span{
-    color:#C6A877;
+    font-size:1em;
+    font-family: "antiquarian-scribe", sans-serif;
+   
 
 }
-.process-wrapper{
-    margin:auto;
-    max-width:1080px;
-}
-#progress-bar-container{
-position:relative;;
-width:90%;
-margin:auto;
-height:100px;
-margin-top:59px;
-}
-#progress-bar-container ul{
-    padding:0;
-    margin:0;
-    padding-top:15px;
-    z-index:9999;
-    position:absolute;
-    width:100%;
-    margin-top:-40px;
-}
-#progress-bar-container li:before{
-    content:"";
-    display:block;
-    margin:auto;
-    width:30px;
-    height:30px;
-    border-radius:50%;
-    border:solid 2px #aaa;
-    transition:all ease 0.3s;
-}
-#progress-bar-container li.active:before,
-#progress-bar-container li:hover:before{
-   background:#1A1A2A;;
+.title p{
+    color:#946D43;
+    font-family: "antiquarian", sans-serif;
+    font-size:2em;
+    letter-spacing:2px;
+    font-weight:bold;
 
 }
-#progress-bar-container li{
-    list-style:none;
-    float:left;
-    width:20%;
-    text-align:center;
-    color:#aaa;
-    text-transform:uppercase;
-    font-size:11px;
-    cursor:pointer;
-    font-weight:700;
-    transition:all ease 0.2s;
-    vertical-align:bottom;
-    height:59px;
+.timeline{
+    margin:5em auto;
+    max-width:34.15em;
+}
+.checkpoint{
+    max-width:34em;
+    padding-top:2em;
+    padding-bottom:2em;
     position:relative;
-    
+    font-family: "antiquarian", sans-serif;
+    font-size:1.25em;
+
 }
+.checkpoint div{
+    border:2px solid #888;
+    border-radius:1em;
+    padding:1.5em;
+    border: 5px solid rgba(26,26,42,0.7);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.checkpoint p{
+    line-height:27px;
+    color:#1A1A2A;
+}
+.checkpoint:nth-child(odd){
+    border-left:3px solid #888;
+    padding-left:3em;
+    transform:translate(14em);
+}
+.checkpoint:nth-child(even){
+    border-right:3px solid #888;
+    padding-right:3em;
+    transform:translate(-13.20em);
+}
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before{
+    content:"";
+    background:#888;
+    width:3em;
+    height:3px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+.checkpoint:nth-child(odd)::before{
+    left:0;
+
+}
+.checkpoint:nth-child(even)::before{
+    right:0;
+}
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before{
+    content:"";
+    background:#fff;
+    box-shadow:0 0 0.5em #1A1A2A;
+    width:0.8em;
+    height:0.8em;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    border-radius:50%;
+}
+.checkpoint:nth-child(odd) div::before{
+    left:-0.5em;
+}
+.checkpoint:nth-child(even) div::before{
+    right:-0.5em;
+}
+@media screen and (max-width:1150px){
+    .timeline{
+        width:80vw;
+    }
+    .timeline .checkpoint {
+        width:100%;
+        transform:none;
+        padding-left:0;
+        padding-right:0;
+        border:none;
+    }
+    .timeline .checkpoint::before {
+        width:3px;
+        height:4em;
+        top:-2em;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    .timeline .checkpoint div::before{
+        top:-0.5em;
+        left:50%;
+        transform:translateX(-50%);
+    }
+}
+
 
 
 /*end of early years*/
