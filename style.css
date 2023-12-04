@@ -140,7 +140,7 @@ html::webkit-scrollbar{
 
 }
 /* end of parrallax section */
-/*beg of about section*/
+/*beg of challenges section*/
 .row{
     padding:50px;
     /*margin-top:50px;*/
@@ -205,7 +205,7 @@ html::webkit-scrollbar{
    
 
 }
-/*end of about section*/
+/*end of challengs section*/
 /*beg of early years*/
 h1{
     margin:0.3em;
@@ -348,11 +348,13 @@ h2{
 .btn{
     box-shadow: 10px 5px 3px rgba(207, 182, 162, 0.3);
 }
+
 /*end of major accomplishments/significant contributions to society*/
 
+/* beg of challenges*/
 
 
-
+/* end of challenges*/
 
 
 
