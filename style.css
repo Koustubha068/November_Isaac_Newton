@@ -157,10 +157,10 @@ html::webkit-scrollbar{
   
 
 }
-.about .card{
+.about .icard{
     border-radius:10px;
 }
-.about .card img{
+.about .icard img{
     border-radius:10px;
 
 }
@@ -337,6 +337,7 @@ h2{
     border-radius:20px;
     border: 5px solid rgba(29,19,14,0.7);
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+    
 }
 .card-title{
     font-weight:bold;
