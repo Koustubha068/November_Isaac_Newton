@@ -149,7 +149,7 @@ html::webkit-scrollbar{
 .newton{
     text-align:center;
     font-family: "antiquarian", sans-serif;
-    color:#946D43;
+    color:#1A1A2A;
 
 }
 .about{
@@ -187,12 +187,12 @@ html::webkit-scrollbar{
     font-size: 24px;
 }
 .him{
-    color:#b2744c;
-    font-family: "antiquarian", sans-serif;
+    color:#1A1A2A;
+    font-family:"antiquarian", sans-serif;
     font-size:2em;
 }
 .Newton{
-    color:#b2744c;
+    color:#1A1A2A;
     font-family: "antiquarian", sans-serif;
     font-size:20px;
 }
@@ -230,6 +230,9 @@ h2{
     font-weight:bold;
 
 }
+.info{
+    color: #946D43;
+}
 .timeline{
     margin:5em auto;
     max-width:34.15em;
@@ -247,12 +250,12 @@ h2{
     border:2px solid #888;
     border-radius:1em;
     padding:1.5em;
-    border: 5px solid rgba(26,26,42,0.7);
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+    border: 5px solid rgba(148,109,67,0.7);
+    box-shadow: 10px 5px 5px rgba(82, 62, 40, 0.7);
 }
 .checkpoint p{
     line-height:27px;
-    color:#1A1A2A;
+    color:#b2744c;
 }
 .checkpoint:nth-child(odd){
     border-left:3px solid #888;
@@ -285,7 +288,7 @@ h2{
 .checkpoint:nth-child(even) div::before{
     content:"";
     background:#fff;
-    box-shadow:0 0 0.5em #1A1A2A;
+    box-shadow:0 0 0.5em rgba(148,109,67,0.7);
     width:0.8em;
     height:0.8em;
     position:absolute;
@@ -330,19 +333,24 @@ h2{
 .text{
     font-weight: bold;
     letter-spacing: 0.2px;
-    color:black;
+    color:#1A1A2A;
+    font-family: "antiquarian", sans-serif;
 }
 .card{
-    background-color: #cc9e7b;
+    background-color: #946D43;
     border-radius:20px;
-    border: 5px solid rgba(29,19,14,0.7);
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+    border: 5px solid rgba(26, 26, 42, 0.7);
+    box-shadow: 10px 5px 5px rgba(26, 26, 42, 0.4);
+    font-family: "antiquarian", sans-serif;
+    font-size:20px;
     
 }
 .card-title{
     font-weight:bold;
     letter-spacing:0.2px;
-    color:black;
+    color:#1A1A2A;
+    font-family: "antiquarian", sans-serif;
+    font-size:30px;
 
 }
 .btn{
