@@ -327,7 +327,26 @@ h2{
 
 
 /*start of major accomplishments/significant contributions to society*/
+.text{
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color:black;
+}
+.card{
+    background-color: #cc9e7b;
+    border-radius:20px;
+    border: 5px solid rgba(29,19,14,0.7);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.card-title{
+    font-weight:bold;
+    letter-spacing:0.2px;
+    color:black;
 
+}
+.btn{
+    box-shadow: 10px 5px 3px rgba(207, 182, 162, 0.3);
+}
 /*end of major accomplishments/significant contributions to society*/
 
 
