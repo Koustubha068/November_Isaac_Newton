@@ -199,9 +199,10 @@ html::webkit-scrollbar{
 #about-btn:hover{
     width:170px;
 }
-.img{
+.img2{
     border:5px solid #1A1A2A;
     box-shadow:10px 5px 5px rgba(0, 0, 0, 0.4);
+    width:100%;
    
 
 }
@@ -332,35 +333,38 @@ h2{
 
 
 /*start of major accomplishments/significant contributions to society*/
+
+
+
+
 .text{
     font-weight: bold;
     letter-spacing: 0.2px;
     color:#1A1A2A;
     font-family: "antiquarian", sans-serif;
+    
 }
 .card{
     background-color: #946D43;
     border-radius:20px;
-    border: 5px solid rgba(26, 26, 42, 0.7);
+    border: 5px solid rgba(26, 26, 42, 0.9);
     box-shadow: 10px 5px 5px rgba(26, 26, 42, 0.4);
     font-family: "antiquarian", sans-serif;
-    font-size:20px;
-    
+   
 }
 .card-title{
     font-weight:bold;
     letter-spacing:0.2px;
     color:#1A1A2A;
     font-family: "antiquarian", sans-serif;
-    font-size:30px;
+    font: size 20px;
 
 }
+
 .btn{
     box-shadow: 10px 5px 3px rgba(26, 26, 42, 0.4);
     font-size:22px;
 }
-
-
 /*end of major accomplishments/significant contributions to society*/
 
 /* beg of challenges*/
